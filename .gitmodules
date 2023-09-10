@@ -1,0 +1,9 @@
+[submodule "TarsusCloudProxyServer"]
+	path = TarsusCloudProxyServer
+	url = https://github.com/chelizichen/TarsusCloudProxyServer.git
+[submodule "TarsusCloudWebServer"]
+	path = TarsusCloudWebServer
+	url = https://github.com/chelizichen/TarsusCloudWebServer.git
+[submodule "TarsusCloudServer"]
+	path = TarsusCloudServer
+	url = https://github.com/chelizichen/TarsusCloudServer.git
