@@ -35,7 +35,7 @@ function execServer(servers) {
 
 // 使用示例
 execServer([
-  { dir: './TarsusCloudServer', script: 'npm run start' },
+  { dir: './TarsusCloudServer', script: 'npm run dev' },
   { dir: './TarsusCloudWebServer', script: 'npm run dev' },
   { dir: './TarsusCloudProxyServer',script: './build'}
 ]);
