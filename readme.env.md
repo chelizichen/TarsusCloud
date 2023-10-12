@@ -21,12 +21,12 @@ const taro_path = path.resolve(__dirname, "taro")
 process.env.routes_path = routes_path;
 process.env.taro_path = taro_path;
 process.env.IsProd = '0';
-process.env.IsUp = '0';
+process.env.IsOnlyDB = '0';
 
 
 let poolConfig : PoolOptions;
 
-if(Number(process.env.IsUp) == 0){
+if(Number(process.env.IsOnlyDB) == 0){
     // 测试环境
     poolConfig = {
 
